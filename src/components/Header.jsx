@@ -11,6 +11,8 @@ const Header = () => {
         <NavLink to="/SubhanAllah">SubhanAllah</NavLink>
         <NavLink to="/Alhamdulillah">Alhamdulillah</NavLink>
         <NavLink to="/Allahuakbar">Allahu Akbar</NavLink>
+        <NavLink to="/LailahaIllallah">La ilaha Illallah</NavLink>
+        <NavLink to="/Astagfirullah">Astagfirullah</NavLink>
       </div>
     </div>
   )

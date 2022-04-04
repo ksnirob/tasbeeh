@@ -2,12 +2,12 @@
 
 body{
   font-family: nunito;
-  width: 80%;
+  /* width: 54%; */
   margin: 0 auto;
   background-color: #FAFAFA;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .counter {
@@ -24,17 +24,22 @@ body{
   color: aliceblue;
   margin: auto;
   border-radius: 50%;
-  border: 1px solid #169985;
+  border: 3px solid #1ea145;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  outline: none;
   font-size: 4rem;
+  user-select: none; 
+}
+
+.counter .count-box:hover{
+  background-color: darkolivegreen;
 }
 
 button,
 .menu a{
-  margin-top: 30px;
   border: none;
   background-color: white;
   box-shadow: 0px 0px 5px #11839f;
@@ -47,8 +52,48 @@ button,
   text-decoration: none;
 }
 
+button{
+  width: 15%;
+  /* font-weight: bold; */
+  margin-top: 30px;
+}
+
 .menu{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
-  margin-bottom: 30px;
+  margin: 20px;
+}
+
+
+.menu a:hover{
+  background-color: #1ea145;
+  color: aliceblue;
+}
+
+button:hover{
+  background-color: #1ea145;
+  color: aliceblue;
+}
+.info{
+  width: 50%;
+  text-align: center;
+  background-color:lightblue;
+  border: 1px dashed #169985;
+  padding: 5px 10px;
+  margin: 20px auto;
+}
+
+.info span{
+  font-size: 18px;
+  font-weight: bold;
+  color: #218113;
+}
+
+@media only screen and (max-width: 1250px)  {
+  .info{
+    width: 80%;
+  }
 }
