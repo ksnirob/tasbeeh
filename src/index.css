@@ -68,10 +68,16 @@ button{
 }
 
 
-.menu a:hover{
+.menu a:hover,
+.menu a.active
+{
   background-color: #1ea145;
   color: aliceblue;
 }
+
+/* .activeMenu{
+  background-color: #1ea145;
+} */
 
 button:hover{
   background-color: #1ea145;

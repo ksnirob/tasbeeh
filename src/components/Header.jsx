@@ -8,11 +8,12 @@ const Header = () => {
         <h1>Tasbeeh</h1>
       </div>
       <div className='menu'>
-        <NavLink to="/SubhanAllah">SubhanAllah</NavLink>
+        <NavLink to="/">SubhanAllah</NavLink>
         <NavLink to="/Alhamdulillah">Alhamdulillah</NavLink>
         <NavLink to="/Allahuakbar">Allahu Akbar</NavLink>
         <NavLink to="/LailahaIllallah">La ilaha Illallah</NavLink>
         <NavLink to="/Astagfirullah">Astagfirullah</NavLink>
+        {/* <NavLink to="/Astagfirullah"  className={({ isActive }) => (isActive ? 'activeMenu' : 'inactive')}>Astagfirullah</NavLink> */}
       </div>
     </div>
   )

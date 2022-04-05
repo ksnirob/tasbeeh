@@ -15,8 +15,8 @@ function App() {
       <Router>
          <Header />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/SubhanAllah' element={<SubhanAllah />} />
+          {/* <Route exact path='/' element={<Home />} /> */}
+          <Route path='/' element={<SubhanAllah />} />
           <Route path='/Alhamdulillah' element={<Alhamdulillah />} />
           <Route path='/Allahuakbar' element={<Allahuakbar />} />
           <Route path='/Lailahaillallah' element={<LailahaIllallah />} />
