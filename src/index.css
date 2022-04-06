@@ -31,7 +31,8 @@ body{
   cursor: pointer;
   outline: none;
   font-size: 4rem;
-  user-select: none; 
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .counter .count-box:hover{
